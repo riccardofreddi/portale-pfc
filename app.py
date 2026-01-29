@@ -53,7 +53,7 @@ db = st.session_state['db']
 
 # --- LOGIN ---
 if not st.session_state['logged_in']:
-    st.title("🏢 Accesso Portale PFC")
+    st.title("🏢 Accesso Portale")
     with st.form("login_form"):
         u = st.text_input("Username").strip().lower()
         p = st.text_input("Password", type="password")
